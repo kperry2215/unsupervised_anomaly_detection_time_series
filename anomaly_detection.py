@@ -200,7 +200,7 @@ if __name__ == "__main__" :
     api_key = 'YOUR API KEY HERE'
     api = eia.API(api_key)
     
-    #Pull the oil WTI price data
+    #Pull the gasoline price data
     series_ID='PET.EER_EPMRU_PF4_RGC_DPG.D'
     gasoline_price_df=retrieve_time_series(api, series_ID)
     gasoline_price_df.reset_index(level=0, inplace=True)
