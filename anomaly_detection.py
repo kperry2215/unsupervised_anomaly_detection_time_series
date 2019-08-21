@@ -197,7 +197,7 @@ def one_class_SVM_anomaly_detection(dataframe, columns_to_filter_by, outliers_fr
 
 if __name__ == "__main__" :
     #Create EIA API using your specific API key
-    api_key = 'd5c759bbe26b1a70f495e4aecadcf684'
+    api_key = 'YOUR API KEY HERE'
     api = eia.API(api_key)
     
     #Pull the oil WTI price data
