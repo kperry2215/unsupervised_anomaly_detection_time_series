@@ -143,7 +143,7 @@ def sesd_anomaly_detection(dataframe,
         a yearly trend, we'd set the value equal to 365.
         max_anomalies: Integer. Max number of anomalies to look for in the time series
         sequence.
-        alpha_level:
+        alpha_level:Significance level.
     Outputs:
         df: Pandas dataframe with column for detected S-ESD anomalies (True/False)
     """
